@@ -1,0 +1,30 @@
+{
+  "name": "jest-example",
+  "version": "1.0.0",
+  "description": "Just a jest example",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node ./app/index.js",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweenn/jest-example.git"
+  },
+  "author": "Felipe Zuntini <felipezuntini@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tweenn/jest-example/issues"
+  },
+  "homepage": "https://github.com/tweenn/jest-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "standard": "^16.0.3"
+  }
+}
